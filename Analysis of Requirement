@@ -1,0 +1,20 @@
+Step 1: Install cURL
+Step 2: Install golan-go
+Step 3: GOPATH=$HOME/go
+Step 4: PATH =$PATH:$GOPATH/bin
+Step 5: Install note js
+Step 6: Install npm
+Step 7: Install Python
+Step 8: Install Docker 
+Step 9: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+Step 10: add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+Step 11: apt-get update
+Step 12: cache policy docker-ce
+Step 13: apt-get install -y docker-ce
+Step 14: apt-get install docker-compose
+Step 15: apt-get upgrade
+Step 16: curl -sSL https://goo.gl/6wtTN5 | sudo bash -s 1.1.0
+Step 17: chmod 777 -R fabric-samples
+Step 18: cd fabric-samples/first-network
+Step 19: byfn.sh generate
+Step 20: byfn.sh up
